@@ -43,7 +43,7 @@ if(isset($_SESSION['login_email']) && !empty($_SESSION['login_email']))
     </div>
 
     <div class="form-group">
-        <label for="inputEmail" class="control-label col-xs-2">Email</label>
+        <label for="inputEmail" class="control-label col-xs-2">Set Email</label>
         <div class="col-xs-6">
             <input type="email" class="form-control" id="email" name="email" placeholder="Customer Email">
         </div>
