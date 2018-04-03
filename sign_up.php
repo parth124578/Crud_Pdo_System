@@ -15,7 +15,7 @@ if(isset($_SESSION['login_email']) && !empty($_SESSION['login_email']))
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Crud PDO System</title>
+    <title>Basic Bootstrap Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional Bootstrap theme -->
@@ -50,7 +50,7 @@ if(isset($_SESSION['login_email']) && !empty($_SESSION['login_email']))
     </div>
 
     <div class="form-group">
-        <label for="inputEmail" class="control-label col-xs-2">Password</label>
+        <label for="inputEmail" class="control-label col-xs-2">Set a Password</label>
         <div class="col-xs-6">
             <input type="password" class="form-control" id="password" name="password" placeholder="Password">
         </div>
