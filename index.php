@@ -45,12 +45,12 @@ if(isset($_SESSION['login_email']) && !empty($_SESSION['login_email']))
     <div class="form-group">
         <div class="col-xs-offset-2 col-xs-6">
             <input type="submit"  name="register" value="Submit" class="btn btn-primary" id="register" />
-
             <span id="err_register"></span>
-
+            <a href="sign_up.php">SignUp</a>
         </div>
+        
     </div>
-    <a href="sign_up.php">SignUp</a>
+    
 </form>
 </div>
 </body>
