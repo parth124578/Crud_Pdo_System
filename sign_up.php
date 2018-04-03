@@ -50,7 +50,7 @@ if(isset($_SESSION['login_email']) && !empty($_SESSION['login_email']))
     </div>
 
     <div class="form-group">
-        <label for="inputEmail" class="control-label col-xs-2">Set a Password</label>
+        <label for="inputEmail" class="control-label col-xs-2">Password</label>
         <div class="col-xs-6">
             <input type="password" class="form-control" id="password" name="password" placeholder="Password">
         </div>
